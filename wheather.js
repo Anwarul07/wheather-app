@@ -37,7 +37,7 @@ const getWheather = (city) => {
 		.catch(err => console.error(err))
 }
 submit.addEventListener("click", (e) => {
-	e.preventDefault()
+	e.preventDefault();
 	getWheather(city.value);
 })
 //By Default Delhi
@@ -67,7 +67,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=shanghai`, opt
 
 	})
 	.catch(err => console.error(err));
-getWheather("Shanghai");
+// getWheather("Shanghai");
 
 
 
@@ -92,7 +92,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=kolkata`, opti
 
 	})
 	.catch(err => console.error(err));
-getWheather("Kolkata");
+// getWheather("Kolkata");
 
 
 
@@ -117,7 +117,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=bihar`, option
 
 	})
 	.catch(err => console.error(err));
-getWheather("Bihar");
+// getWheather("Bihar");
 
 
 //Bhopal City Wheather
@@ -141,7 +141,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=bhopal`, optio
 
 	})
 	.catch(err => console.error(err));
-getWheather("Bhopal");
+// getWheather("Bhopal");
 
 
 
@@ -166,7 +166,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=boston`, optio
 
 	})
 	.catch(err => console.error(err));
-getWheather("boston");
+// getWheather("boston");
 
 
 //Mumbai City Wheather
@@ -190,7 +190,7 @@ fetch(`https:weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Mumbai`, optio
 
 	})
 	.catch(err => console.error(err));
-getWheather("Mumbai");
+// getWheather("Mumbai");
 
 
 
