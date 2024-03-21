@@ -34,7 +34,7 @@ const getWheather = (city) => {
 
 
 		})
-		.catch(err => console.error(err));
+		.catch(err => console.error(err))
 }
 submit.addEventListener("click", (e) => {
 	e.preventDefault()
