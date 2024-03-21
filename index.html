@@ -56,7 +56,7 @@
 
 
   <div class="cardd">
-    <h1 class="my-4 text-center">Wheather For <span id="cityName"></span></h1>
+    <h1 class="my-4 text-center">Wheather For  <span id="cityName">Delhi</span></h1>
 
 
     <main>
@@ -67,30 +67,32 @@
               <h4 class="my-0 fw-normal">Tempreture</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+              <h1 class="card-title pricing-card-title"><span id="temp2"></span><small
+                  class="text-body-secondary fw-light"> <span>&#8451;</span></small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li> Tempreture  :- <span id="temp"></span></li>
-                <li> Min tempreture  :- <span id="min_temp"></span></li>
-                <li> Max tempreture  :- <span id="max_temp"></span></li>
+                <li> Tempreture :- <span id="temp"></span></li>
+                <li> Min tempreture :- <span id="min_temp"></span></li>
+                <li> Max tempreture :- <span id="max_temp"></span></li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-primary">
             <div class="card-header py-3 border-primary">
-              <h4 class="my-0 fw-normal">feels</h4>
+              <h4 class="my-0 fw-normal">Feels</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+              <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small
+                  class="text-body-secondary fw-light"><span> &percnt;</span></small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li> Sunrise time  :- <span id="sunrise"></span></li>
-                <li> Sunset time  :- <span id="sunset"></span></li>
-                <li> Humidity  :- <span id="humidity"></span></li>
+                <li> Sunrise time :- <span id="sunrise"></span></li>
+                <li> Sunset time :- <span id="sunset"></span></li>
+                <li> Humidity :- <span id="humidity"></span></li>
 
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+
             </div>
           </div>
         </div>
@@ -100,15 +102,16 @@
               <h4 class="my-0 fw-normal">Wind</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+              <h1 class="card-title pricing-card-title"><span id="wind_speed2"></span><small
+                  class="text-body-secondary fw-light"> km/hr</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>Cloud pct  :- <span id="cloud_pct"></span></li>
-                <li>Feels like  :- <span id="feels_like"></span></li>
-                <li> Wind degree  :- <span id="wind_degrees"></span></li>
-                <li> Wind speed  :- <span id="wind_speed"></span></li>
+
+                <li>Feels like :- <span id="feels_like"></span></li>
+                <li> Wind degree :- <span id="wind_degrees"></span></li>
+                <li> Wind speed :- <span id="wind_speed"></span></li>
 
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+
             </div>
           </div>
         </div>
@@ -121,16 +124,15 @@
           <thead>
             <tr>
               <th style="width: 15%;"></th>
-              <th style="width: 12%;">Cloud_pc</th>
-              <th style="width: 12%;">Feels_like</th>
-              <th style="width: 12%;">Humidity</th>
-              <th style="width: 12%;">Max_temp</th>
+              <th style="width: 12%;">Temp</th>
               <th style="width: 12%;">Min_temp</th>
+              <th style="width: 12%;">Max_temp</th>
               <th style="width: 12%;">Sunrise</th>
               <th style="width: 12%;">Sunset</th>
-              <th style="width: 12%;">Temp</th>
+              <th style="width: 12%;">Humidity</th>
+              <th style="width: 12%;">Feels_like</th>
               <th style="width: 22%;">Wind-degree</th>
-              <th style="width: 22%;">Wind-spede</th>
+              <th style="width: 22%;">Wind-speed</th>
 
 
 
@@ -138,86 +140,84 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row" class="text-start">Delhi</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
+              <th scope="row" class="text-start"><span lass="my-4 text-center" id="Delhi">Delhi</span< /th>
+              <td><span id="temp3"></span></td>
+              <td><span id="min_temp3"></span></td>
+              <td> <span id="max_temp3"></span></td>
+              <td><span id="sunrise3"></span></td>
+              <td><span id="sunset3"></span></td>
+              <td><span id="humidity3"></span></td>
+              <td><span id="feels_like3"></span></td>
+              <td><span id="wind_degrees3"></span></td>
+              <td><span id="wind_speed3"></span></td>
             </tr>
             <tr>
-              <th scope="row" class="text-start">Kolkatta</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
+               <th scope="row" class="text-start"><span lass="my-4 text-center" id="cityName">Kolkata</span< /th>
+              <td><span id="temp4"></span></td>
+              <td><span id="min_temp4"></span></td>
+              <td> <span id="max_temp4"></span></td>
+              <td><span id="sunrise4"></span></td>
+              <td><span id="sunset4"></span></td>
+              <td><span id="humidity4"></span></td>
+              <td><span id="feels_like4"></span></td>
+              <td><span id="wind_degrees4"></span></td>
+              <td><span id="wind_speed4"></span></td>
             </tr>
           </tbody>
 
-          <tbody>
+          <!--<tbody>
             <tr>
-              <th scope="row" class="text-start">Mumbai</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
+              <th scope="row" class="text-start"><span lass="my-4 text-center" id="cityName">Bihar</span< /th>
+              <td><span id="temp"></span></td>
+              <td><span id="min_temp"></span></td>
+              <td> <span id="max_temp"></span></td>
+              <td><span id="sunrise"></span></td>
+              <td><span id="sunset"></span></td>
+              <td><span id="humidity"></span></td>
+              <td><span id="feels_like"></span></td>
+              <td><span id="wind_degrees"></span></td>
+              <td><span id="wind_speed"></span></td>
+
             </tr>
             <tr>
-              <th scope="row" class="text-start">Bihar</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
+              <th scope="row" class="text-start"><span lass="my-4 text-center" id="cityName">Bhopal</span< /th>
+              <td><span id="temp"></span></td>
+              <td><span id="min_temp"></span></td>
+              <td> <span id="max_temp"></span></td>
+              <td><span id="sunrise"></span></td>
+              <td><span id="sunset"></span></td>
+              <td><span id="humidity"></span></td>
+              <td><span id="feels_like"></span></td>
+              <td><span id="wind_degrees"></span></td>
+              <td><span id="wind_speed"></span></td>
+
             </tr>
             <tr>
-              <th scope="row" class="text-start">Bhopal</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
+              <th scope="row" class="text-start"><span lass="my-4 text-center" id="cityName">J & K</span< /th>
+              <td><span id="temp"></span></td>
+              <td><span id="min_temp"></span></td>
+              <td> <span id="max_temp"></span></td>
+              <td><span id="sunrise"></span></td>
+              <td><span id="sunset"></span></td>
+              <td><span id="humidity"></span></td>
+              <td><span id="feels_like"></span></td>
+              <td><span id="wind_degrees"></span></td>
+              <td><span id="wind_speed"></span></td>
+
             </tr>
             <tr>
-              <th scope="row" class="text-start">j & K</th>
-              <td>120</td>
-              <td>14.0</td>
-              <td> 45</td>
-              <td>78</td>
-              <td>60.3</td>
-              <td>5</td>
-              <td>0.5</td>
-              <td>2.2</td>
-              <td>44</td>
-              <td>50</td>
-            </tr>
+              <th scope="row" class="text-start"><span lass="my-4 text-center" id="cityName">Mumbai</span< /th>
+              <td><span id="temp"></span></td>
+              <td><span id="min_temp"></span></td>
+              <td> <span id="max_temp"></span></td>
+              <td><span id="sunrise"></span></td>
+              <td><span id="sunset"></span></td>
+              <td><span id="humidity"></span></td>
+              <td><span id="feels_like"></span></td>
+              <td><span id="wind_degrees"></span></td>
+              <td><span id="wind_speed"></span></td>
+
+            </tr> -->
           </tbody>
         </table>
       </div>
