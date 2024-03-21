@@ -38,7 +38,7 @@ const getWheather = (city) => {
 }
 submit.addEventListener("click", (e) => {
 	e.preventDefault()
-	getWheather(cityName.value);
+	getWheather(city.value);
 })
 //By Default Delhi
 getWheather("delhi");
